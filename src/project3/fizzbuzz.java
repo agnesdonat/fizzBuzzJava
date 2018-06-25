@@ -9,26 +9,13 @@ public class fizzbuzz {
 	public static Object convert(int number) {
 		// When we don't know the return datatype we can use
 		// Object
-		if(number == 1) {
-			return 1;
-		} else if (number == 2) {
-			return 2;			
-		} else if (number == 4) {
-			return 4; 
+		if(number % 3 == 0) {
+			return "fizz";
+		} else if (number % 5 == 0) {
+			return "buzz";			
 		} else {
-			return "fizz";			
-		}
+			return number; 
+		} 		
 	}
 
 }
-
-
-
-//public class Answer {
-//	
-//	int
-//	
-//	public Answer() {
-//		int answer
-//	}
-//}
