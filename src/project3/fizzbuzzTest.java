@@ -7,8 +7,13 @@ import org.junit.jupiter.api.Test;
 class fizzbuzzTest {
 
 	@Test
-	public void test() {
+	public void returnsNumberWhenGivenANonChangingNumber() {
 		assertEquals(1, fizzbuzz.convert(1));
+		assertEquals(2, fizzbuzz.convert(2));
+	}
+	@Test
+	public void returnsFizzWhenGiven3() {
+		assertEquals("fizz", fizzbuzz.convert(3));
 	}
 
 }
