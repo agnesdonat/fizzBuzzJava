@@ -6,12 +6,14 @@ public class fizzbuzz {
 		System.out.println("foo");
 	}
 	
-	public static int convert(int number) {
+	public static String convert(int number) {
 		if(number == 1) {
-			return 1;
+			return "1";
+		} else if (number == 2) {
+			return "2";			
 		} else {
-			return 2;			
-		} 
+			return "fizz";			
+		}
 	}
 
 }
