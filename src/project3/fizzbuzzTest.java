@@ -20,5 +20,9 @@ class fizzbuzzTest {
 	public void returnsBuzzWhengiven5() {
 		assertEquals("buzz", fizzbuzz.convert(5));
 	}
+	@Test
+	public void returnsFizzBuzzWhengiven15() {
+		assertEquals("fizzbuzz", fizzbuzz.convert(15));
+	}
 
 }
