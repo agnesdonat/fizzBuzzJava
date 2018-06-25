@@ -8,8 +8,9 @@ class fizzbuzzTest {
 
 	@Test
 	public void returnsNumberWhenGivenANonChangingNumber() {
-		assertEquals("1", fizzbuzz.convert(1));
-		assertEquals("2", fizzbuzz.convert(2));
+		assertEquals(1, fizzbuzz.convert(1));
+		assertEquals(2, fizzbuzz.convert(2));
+		assertEquals(4, fizzbuzz.convert(4));
 	}
 	@Test
 	public void returnsFizzWhenGiven3() {
